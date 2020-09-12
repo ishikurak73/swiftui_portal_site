@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6904AC7024E5715400C931B3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6904AC6F24E5715400C931B3 /* HomeScreen.swift */; };
+		691AD65A24EBFF30003BA4B7 /* BigNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691AD65924EBFF30003BA4B7 /* BigNews.swift */; };
+		693FD24424FDB79600041140 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD24324FDB79600041140 /* Login.swift */; };
+		693FD24624FDB81E00041140 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD24524FDB81E00041140 /* SearchBar.swift */; };
+		693FD24824FDB89F00041140 /* PickupNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD24724FDB89F00041140 /* PickupNews.swift */; };
+		693FD24A24FDB91000041140 /* Menu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD24924FDB91000041140 /* Menu1.swift */; };
+		693FD24F24FDBB4800041140 /* OtherScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD24E24FDBB4800041140 /* OtherScreen.swift */; };
+		693FD25124FDBB5D00041140 /* InformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD25024FDBB5D00041140 /* InformationScreen.swift */; };
+		693FD25324FDBB6900041140 /* ToolScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693FD25224FDBB6900041140 /* ToolScreen.swift */; };
+		695AB6CB247A74D200A92F94 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB6CA247A74D200A92F94 /* PageControl.swift */; };
+		695AB6CD247A753B00A92F94 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB6CC247A753B00A92F94 /* PageViewController.swift */; };
+		695AB6CF247A765B00A92F94 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695AB6CE247A765B00A92F94 /* PageView.swift */; };
+		6967F62D24E96B440088A2D4 /* Menu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967F62C24E96B440088A2D4 /* Menu2.swift */; };
+		6967F62F24E96F140088A2D4 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6967F62E24E96F140088A2D4 /* NewsList.swift */; };
+		69884F9824F283A600F31856 /* MailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69884F9724F283A600F31856 /* MailScreen.swift */; };
+		69A604C224FFED22005C29CB /* WeatherScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A604C124FFED22005C29CB /* WeatherScreen.swift */; };
+		69C062BC243A25FD007E2FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C062BB243A25FD007E2FD6 /* AppDelegate.swift */; };
+		69C062BE243A25FD007E2FD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C062BD243A25FD007E2FD6 /* SceneDelegate.swift */; };
+		69C062C0243A25FD007E2FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C062BF243A25FD007E2FD6 /* ContentView.swift */; };
+		69C062C2243A2601007E2FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C062C1243A2601007E2FD6 /* Assets.xcassets */; };
+		69C062C5243A2601007E2FD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C062C4243A2601007E2FD6 /* Preview Assets.xcassets */; };
+		69C062C8243A2601007E2FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C062C6243A2601007E2FD6 /* LaunchScreen.storyboard */; };
+		69C062D3243A2601007E2FD6 /* yahoouiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C062D2243A2601007E2FD6 /* yahoouiTests.swift */; };
+		69C062DE243A2601007E2FD6 /* yahoouiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C062DD243A2601007E2FD6 /* yahoouiUITests.swift */; };
+		69C062ED243A2832007E2FD6 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C062EC243A2832007E2FD6 /* TopView.swift */; };
+		69D236F324EC9291001D3414 /* MiddleNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D236F224EC9291001D3414 /* MiddleNews.swift */; };
+		69D236F524EC93DF001D3414 /* SmallNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D236F424EC93DF001D3414 /* SmallNews.swift */; };
+		69D236F724EC9622001D3414 /* BigMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D236F624EC9622001D3414 /* BigMovie.swift */; };
+		69DE71AD246376EE006E5F2A /* VStack_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE71AC246376EE006E5F2A /* VStack_extension.swift */; };
+		69E122D52455CC0100E089E1 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E122D42455CC0100E089E1 /* Color_extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C062CF243A2601007E2FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C062B0243A25FD007E2FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C062B7243A25FD007E2FD6;
+			remoteInfo = yahooui;
+		};
+		69C062DA243A2601007E2FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C062B0243A25FD007E2FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C062B7243A25FD007E2FD6;
+			remoteInfo = yahooui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6904AC6F24E5715400C931B3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		691AD65924EBFF30003BA4B7 /* BigNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNews.swift; sourceTree = "<group>"; };
+		693FD24324FDB79600041140 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		693FD24524FDB81E00041140 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		693FD24724FDB89F00041140 /* PickupNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupNews.swift; sourceTree = "<group>"; };
+		693FD24924FDB91000041140 /* Menu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1.swift; sourceTree = "<group>"; };
+		693FD24E24FDBB4800041140 /* OtherScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherScreen.swift; sourceTree = "<group>"; };
+		693FD25024FDBB5D00041140 /* InformationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationScreen.swift; sourceTree = "<group>"; };
+		693FD25224FDBB6900041140 /* ToolScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolScreen.swift; sourceTree = "<group>"; };
+		695AB6CA247A74D200A92F94 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		695AB6CC247A753B00A92F94 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		695AB6CE247A765B00A92F94 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		6967F62C24E96B440088A2D4 /* Menu2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu2.swift; sourceTree = "<group>"; };
+		6967F62E24E96F140088A2D4 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		69884F9724F283A600F31856 /* MailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailScreen.swift; sourceTree = "<group>"; };
+		69A604C124FFED22005C29CB /* WeatherScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherScreen.swift; sourceTree = "<group>"; };
+		69C062B8243A25FD007E2FD6 /* yahooui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yahooui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C062BB243A25FD007E2FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C062BD243A25FD007E2FD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69C062BF243A25FD007E2FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69C062C1243A2601007E2FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C062C4243A2601007E2FD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69C062C7243A2601007E2FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69C062C9243A2601007E2FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C062CE243A2601007E2FD6 /* yahoouiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yahoouiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C062D2243A2601007E2FD6 /* yahoouiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yahoouiTests.swift; sourceTree = "<group>"; };
+		69C062D4243A2601007E2FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C062D9243A2601007E2FD6 /* yahoouiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yahoouiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C062DD243A2601007E2FD6 /* yahoouiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yahoouiUITests.swift; sourceTree = "<group>"; };
+		69C062DF243A2601007E2FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C062EC243A2832007E2FD6 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		69D236F224EC9291001D3414 /* MiddleNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleNews.swift; sourceTree = "<group>"; };
+		69D236F424EC93DF001D3414 /* SmallNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNews.swift; sourceTree = "<group>"; };
+		69D236F624EC9622001D3414 /* BigMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMovie.swift; sourceTree = "<group>"; };
+		69DE71AC246376EE006E5F2A /* VStack_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_extension.swift; sourceTree = "<group>"; };
+		69E122D42455CC0100E089E1 /* Color_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C062B5243A25FD007E2FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C062CB243A2601007E2FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C062D6243A2601007E2FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6904AC6D24E570C000C931B3 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				69A604C024FFECFA005C29CB /* weather */,
+				693FD24D24FDBB2F00041140 /* other */,
+				693FD24C24FDBB1F00041140 /* information */,
+				693FD24B24FDBB1500041140 /* tool */,
+				69884F9624F2839000F31856 /* mail */,
+				6967F62A24E96B170088A2D4 /* home */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		693FD24B24FDBB1500041140 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				693FD25224FDBB6900041140 /* ToolScreen.swift */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		693FD24C24FDBB1F00041140 /* information */ = {
+			isa = PBXGroup;
+			children = (
+				693FD25024FDBB5D00041140 /* InformationScreen.swift */,
+			);
+			path = information;
+			sourceTree = "<group>";
+		};
+		693FD24D24FDBB2F00041140 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				693FD24E24FDBB4800041140 /* OtherScreen.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		695AB6C9247A748C00A92F94 /* top */ = {
+			isa = PBXGroup;
+			children = (
+				69C062EC243A2832007E2FD6 /* TopView.swift */,
+				695AB6CA247A74D200A92F94 /* PageControl.swift */,
+				695AB6CC247A753B00A92F94 /* PageViewController.swift */,
+				695AB6CE247A765B00A92F94 /* PageView.swift */,
+			);
+			path = top;
+			sourceTree = "<group>";
+		};
+		6967F62A24E96B170088A2D4 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				6967F62B24E96B260088A2D4 /* components */,
+				6904AC6F24E5715400C931B3 /* HomeScreen.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		6967F62B24E96B260088A2D4 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				69A604BD24FFEB7B005C29CB /* menu2 */,
+				6967F62C24E96B440088A2D4 /* Menu2.swift */,
+				693FD24924FDB91000041140 /* Menu1.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		69884F9624F2839000F31856 /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				69884F9724F283A600F31856 /* MailScreen.swift */,
+			);
+			path = mail;
+			sourceTree = "<group>";
+		};
+		69A604BD24FFEB7B005C29CB /* menu2 */ = {
+			isa = PBXGroup;
+			children = (
+				69A604BE24FFEB9D005C29CB /* all */,
+			);
+			path = menu2;
+			sourceTree = "<group>";
+		};
+		69A604BE24FFEB9D005C29CB /* all */ = {
+			isa = PBXGroup;
+			children = (
+				6967F62E24E96F140088A2D4 /* NewsList.swift */,
+				691AD65924EBFF30003BA4B7 /* BigNews.swift */,
+				69D236F224EC9291001D3414 /* MiddleNews.swift */,
+				69D236F424EC93DF001D3414 /* SmallNews.swift */,
+				69D236F624EC9622001D3414 /* BigMovie.swift */,
+				693FD24324FDB79600041140 /* Login.swift */,
+				693FD24524FDB81E00041140 /* SearchBar.swift */,
+				693FD24724FDB89F00041140 /* PickupNews.swift */,
+			);
+			path = all;
+			sourceTree = "<group>";
+		};
+		69A604C024FFECFA005C29CB /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				69A604C124FFED22005C29CB /* WeatherScreen.swift */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		69C062AF243A25FD007E2FD6 = {
+			isa = PBXGroup;
+			children = (
+				69C062BA243A25FD007E2FD6 /* yahooui */,
+				69C062D1243A2601007E2FD6 /* yahoouiTests */,
+				69C062DC243A2601007E2FD6 /* yahoouiUITests */,
+				69C062B9243A25FD007E2FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C062B9243A25FD007E2FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C062B8243A25FD007E2FD6 /* yahooui.app */,
+				69C062CE243A2601007E2FD6 /* yahoouiTests.xctest */,
+				69C062D9243A2601007E2FD6 /* yahoouiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C062BA243A25FD007E2FD6 /* yahooui */ = {
+			isa = PBXGroup;
+			children = (
+				69E122D32455CBE100E089E1 /* extension */,
+				69C062EB243A27F6007E2FD6 /* ui */,
+				69C062BB243A25FD007E2FD6 /* AppDelegate.swift */,
+				69C062BD243A25FD007E2FD6 /* SceneDelegate.swift */,
+				69C062BF243A25FD007E2FD6 /* ContentView.swift */,
+				69C062C1243A2601007E2FD6 /* Assets.xcassets */,
+				69C062C6243A2601007E2FD6 /* LaunchScreen.storyboard */,
+				69C062C9243A2601007E2FD6 /* Info.plist */,
+				69C062C3243A2601007E2FD6 /* Preview Content */,
+			);
+			path = yahooui;
+			sourceTree = "<group>";
+		};
+		69C062C3243A2601007E2FD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69C062C4243A2601007E2FD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69C062D1243A2601007E2FD6 /* yahoouiTests */ = {
+			isa = PBXGroup;
+			children = (
+				69C062D2243A2601007E2FD6 /* yahoouiTests.swift */,
+				69C062D4243A2601007E2FD6 /* Info.plist */,
+			);
+			path = yahoouiTests;
+			sourceTree = "<group>";
+		};
+		69C062DC243A2601007E2FD6 /* yahoouiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69C062DD243A2601007E2FD6 /* yahoouiUITests.swift */,
+				69C062DF243A2601007E2FD6 /* Info.plist */,
+			);
+			path = yahoouiUITests;
+			sourceTree = "<group>";
+		};
+		69C062EB243A27F6007E2FD6 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				6904AC6D24E570C000C931B3 /* screens */,
+				695AB6C9247A748C00A92F94 /* top */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		69E122D32455CBE100E089E1 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				69E122D42455CC0100E089E1 /* Color_extension.swift */,
+				69DE71AC246376EE006E5F2A /* VStack_extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C062B7243A25FD007E2FD6 /* yahooui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C062E2243A2601007E2FD6 /* Build configuration list for PBXNativeTarget "yahooui" */;
+			buildPhases = (
+				69C062B4243A25FD007E2FD6 /* Sources */,
+				69C062B5243A25FD007E2FD6 /* Frameworks */,
+				69C062B6243A25FD007E2FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yahooui;
+			productName = yahooui;
+			productReference = 69C062B8243A25FD007E2FD6 /* yahooui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69C062CD243A2601007E2FD6 /* yahoouiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C062E5243A2601007E2FD6 /* Build configuration list for PBXNativeTarget "yahoouiTests" */;
+			buildPhases = (
+				69C062CA243A2601007E2FD6 /* Sources */,
+				69C062CB243A2601007E2FD6 /* Frameworks */,
+				69C062CC243A2601007E2FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C062D0243A2601007E2FD6 /* PBXTargetDependency */,
+			);
+			name = yahoouiTests;
+			productName = yahoouiTests;
+			productReference = 69C062CE243A2601007E2FD6 /* yahoouiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69C062D8243A2601007E2FD6 /* yahoouiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C062E8243A2601007E2FD6 /* Build configuration list for PBXNativeTarget "yahoouiUITests" */;
+			buildPhases = (
+				69C062D5243A2601007E2FD6 /* Sources */,
+				69C062D6243A2601007E2FD6 /* Frameworks */,
+				69C062D7243A2601007E2FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C062DB243A2601007E2FD6 /* PBXTargetDependency */,
+			);
+			name = yahoouiUITests;
+			productName = yahoouiUITests;
+			productReference = 69C062D9243A2601007E2FD6 /* yahoouiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C062B0243A25FD007E2FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "石倉圭介";
+				TargetAttributes = {
+					69C062B7243A25FD007E2FD6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					69C062CD243A2601007E2FD6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 69C062B7243A25FD007E2FD6;
+					};
+					69C062D8243A2601007E2FD6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 69C062B7243A25FD007E2FD6;
+					};
+				};
+			};
+			buildConfigurationList = 69C062B3243A25FD007E2FD6 /* Build configuration list for PBXProject "yahooui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C062AF243A25FD007E2FD6;
+			productRefGroup = 69C062B9243A25FD007E2FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C062B7243A25FD007E2FD6 /* yahooui */,
+				69C062CD243A2601007E2FD6 /* yahoouiTests */,
+				69C062D8243A2601007E2FD6 /* yahoouiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C062B6243A25FD007E2FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C062C8243A2601007E2FD6 /* LaunchScreen.storyboard in Resources */,
+				69C062C5243A2601007E2FD6 /* Preview Assets.xcassets in Resources */,
+				69C062C2243A2601007E2FD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C062CC243A2601007E2FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C062D7243A2601007E2FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C062B4243A25FD007E2FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693FD24F24FDBB4800041140 /* OtherScreen.swift in Sources */,
+				69A604C224FFED22005C29CB /* WeatherScreen.swift in Sources */,
+				69D236F724EC9622001D3414 /* BigMovie.swift in Sources */,
+				69D236F524EC93DF001D3414 /* SmallNews.swift in Sources */,
+				6904AC7024E5715400C931B3 /* HomeScreen.swift in Sources */,
+				69E122D52455CC0100E089E1 /* Color_extension.swift in Sources */,
+				695AB6CB247A74D200A92F94 /* PageControl.swift in Sources */,
+				69C062BC243A25FD007E2FD6 /* AppDelegate.swift in Sources */,
+				69C062BE243A25FD007E2FD6 /* SceneDelegate.swift in Sources */,
+				693FD25124FDBB5D00041140 /* InformationScreen.swift in Sources */,
+				691AD65A24EBFF30003BA4B7 /* BigNews.swift in Sources */,
+				69D236F324EC9291001D3414 /* MiddleNews.swift in Sources */,
+				693FD24824FDB89F00041140 /* PickupNews.swift in Sources */,
+				693FD24A24FDB91000041140 /* Menu1.swift in Sources */,
+				693FD25324FDBB6900041140 /* ToolScreen.swift in Sources */,
+				69C062ED243A2832007E2FD6 /* TopView.swift in Sources */,
+				69C062C0243A25FD007E2FD6 /* ContentView.swift in Sources */,
+				6967F62F24E96F140088A2D4 /* NewsList.swift in Sources */,
+				693FD24424FDB79600041140 /* Login.swift in Sources */,
+				6967F62D24E96B440088A2D4 /* Menu2.swift in Sources */,
+				69DE71AD246376EE006E5F2A /* VStack_extension.swift in Sources */,
+				695AB6CF247A765B00A92F94 /* PageView.swift in Sources */,
+				693FD24624FDB81E00041140 /* SearchBar.swift in Sources */,
+				69884F9824F283A600F31856 /* MailScreen.swift in Sources */,
+				695AB6CD247A753B00A92F94 /* PageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C062CA243A2601007E2FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C062D3243A2601007E2FD6 /* yahoouiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C062D5243A2601007E2FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C062DE243A2601007E2FD6 /* yahoouiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C062D0243A2601007E2FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C062B7243A25FD007E2FD6 /* yahooui */;
+			targetProxy = 69C062CF243A2601007E2FD6 /* PBXContainerItemProxy */;
+		};
+		69C062DB243A2601007E2FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C062B7243A25FD007E2FD6 /* yahooui */;
+			targetProxy = 69C062DA243A2601007E2FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69C062C6243A2601007E2FD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C062C7243A2601007E2FD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C062E0243A2601007E2FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69C062E1243A2601007E2FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C062E3243A2601007E2FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"yahooui/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L7C59W6XV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = yahooui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mypace.yahooui.yahooui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C062E4243A2601007E2FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"yahooui/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L7C59W6XV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = yahooui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mypace.yahooui.yahooui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69C062E6243A2601007E2FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yahoouiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mypace.yahooui.yahoouiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yahooui.app/yahooui";
+			};
+			name = Debug;
+		};
+		69C062E7243A2601007E2FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yahoouiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mypace.yahooui.yahoouiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yahooui.app/yahooui";
+			};
+			name = Release;
+		};
+		69C062E9243A2601007E2FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yahoouiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mypace.yahooui.yahoouiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yahooui;
+			};
+			name = Debug;
+		};
+		69C062EA243A2601007E2FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yahoouiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mypace.yahooui.yahoouiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yahooui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C062B3243A25FD007E2FD6 /* Build configuration list for PBXProject "yahooui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C062E0243A2601007E2FD6 /* Debug */,
+				69C062E1243A2601007E2FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C062E2243A2601007E2FD6 /* Build configuration list for PBXNativeTarget "yahooui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C062E3243A2601007E2FD6 /* Debug */,
+				69C062E4243A2601007E2FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C062E5243A2601007E2FD6 /* Build configuration list for PBXNativeTarget "yahoouiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C062E6243A2601007E2FD6 /* Debug */,
+				69C062E7243A2601007E2FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C062E8243A2601007E2FD6 /* Build configuration list for PBXNativeTarget "yahoouiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C062E9243A2601007E2FD6 /* Debug */,
+				69C062EA243A2601007E2FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C062B0243A25FD007E2FD6 /* Project object */;
+}
