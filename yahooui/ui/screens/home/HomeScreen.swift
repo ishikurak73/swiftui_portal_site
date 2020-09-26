@@ -17,7 +17,6 @@ struct HomeScreen: View {
     fileprivate func minNewsList() -> some View {
         return VStack(spacing: 0) {
             NewsList()
-            NewsList()
             NewsList()//https://medium.com/swlh/sticky-header-with-swiftui-199ede4b3208
             NewsList()
             NewsList()
@@ -45,8 +44,9 @@ struct HomeScreen: View {
     }
     
     fileprivate func bigMovieList() -> some View {
-        return BigMovie()
-        
+        return VStack(spacing: 0) {
+            BigMovie()
+        }
     }
     
     var body: some View {
@@ -61,19 +61,11 @@ struct HomeScreen: View {
                 .background(Color.white)
                 .listRowInsets(EdgeInsets())
                 Section(header: Menu2(selectedPage: $selectedPage)) {
-                    //GeometryReader{_ in
-                        if self.selectedPage == 0 {
-                            self.minNewsList()
-                            self.bigNewsList()
-                            self.middleNewsList()
-                            self.smallNewsList()
-                            self.bigMovieList()
-                        } else if self.selectedPage == 1 {
-    
-                        } else {
-    
-                        }
-                   // }
+                    self.minNewsList()
+                    self.bigNewsList()
+                    self.middleNewsList()
+                    self.smallNewsList()
+                    self.bigMovieList()
                 }
                 .listRowInsets(EdgeInsets())
             }

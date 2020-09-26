@@ -11,15 +11,15 @@ import SwiftUI
 struct SmallNews: View {
     fileprivate func newsDetail() -> some View {
         return HStack(spacing: 0.0){
-            Image("150x150").resizable().frame(width: 120.0, height: 120.0)
+            Image("150x150").resizable().frame(width: 80, height: 80)
             Spacer().frame(width:10)
             VStack(alignment: .leading){
-                Text("「もののけ姫」や「千と千尋」..ジブリ４作品の再上映。異例のヒット")
+                Text("４作品の再上映。異例のヒット")
                     .font(.system(size: 15))
                     .fontWeight(.bold)
                     .foregroundColor(Color.init(hex: "333333"))
                 Spacer().frame(height:10)
-                Text("Jタウンネット")
+                Text("タウンネット")
                     .font(.system(size: 12))
                     .foregroundColor(Color.gray)
             }

@@ -13,25 +13,25 @@ struct MiddleNews: View {
         return HStack {
             VStack(alignment: .leading, spacing: 0.0) {
                 Image("collecting").resizable()
-                    .frame(height: 150)
-                Text("「100万円たまる貯金箱」を６年かけて満杯に　2000日の苦労を本人い聞いた")
+                    .frame(height: 120)
+                Text("「100万円たまる貯金箱」を６年かけて満杯に　苦労を本人い聞いた")
                 .font(.system(size: 16))
                 .fontWeight(.bold)
                 .foregroundColor(Color.init(hex: "333333"))
                 Spacer().frame(height:10)
-                Text("Jタウンネット")
+                Text("タウンネット")
                 .font(.system(size: 12))
                 .foregroundColor(Color.gray)
             }
             VStack(alignment: .leading, spacing: 0.0) {
                 Image("collecting").resizable()
-                    .frame(height: 150)
-                Text("「当時は睡眠２時間」元ZONE・MAI解散、再結成、引退。。。紆余曲折から。。。")
+                    .frame(height: 120)
+                Text("バンド解散、再結成、引退。。。紆余曲折から。。。")
                 .font(.system(size: 16))
                 .fontWeight(.bold)
                 .foregroundColor(Color.init(hex: "333333"))
                 Spacer().frame(height:10)
-                Text("道新スポーツ")
+                Text("スポーツ")
                 .font(.system(size: 12))
                 .foregroundColor(Color.gray)
             }

@@ -18,7 +18,7 @@ struct BigNews: View {
             .fontWeight(.bold)
             .foregroundColor(Color.init(hex: "333333"))
             Spacer().frame(height:10)
-            Text("CNN.co.jp")
+            Text("NN.co.jp")
             .font(.system(size: 12))
             .foregroundColor(Color.gray)
         }

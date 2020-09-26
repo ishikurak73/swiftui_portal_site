@@ -13,6 +13,7 @@ struct Menu1: View {
     @State private var isWeatherScreenPresented = false
     
     fileprivate func menu1() -> some View {
+        
         return VStack(spacing: 0) {
             Divider()
             HStack(spacing: 0) {
@@ -55,7 +56,7 @@ struct Menu1: View {
                      screen: WeatherScreen(isWeatherScreenPresented: self.$isWeatherScreenPresented))
                 Divider()
                 tile(imageName: "hammer",
-                     label: "ヤフオク！",
+                     label: "オク！",
                      isPresented: $isWeatherScreenPresented,
                      tapGesture: {self.isWeatherScreenPresented.toggle()},
                      screen: WeatherScreen(isWeatherScreenPresented: self.$isWeatherScreenPresented))
